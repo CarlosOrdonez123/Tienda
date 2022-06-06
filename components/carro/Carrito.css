@@ -1,0 +1,323 @@
+.box_step{
+  width: 70%;
+  margin: 50px auto;
+}
+
+
+.container-carrito steps {
+    background-color: #0000;
+
+}
+
+.carrito-contenedor {
+  margin:0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
+.form-table-total{
+  width: 50%;
+  position: relative;
+left:80%;
+}
+
+.select-pago-titulo h1{
+  font-size: 13px;
+  position: absolute;
+   top: 20%;
+
+}
+
+.select-pago img{
+height:40%;
+width: 40%;
+
+}
+
+.select-pago button{
+height: 50%;
+width: 30%;
+}
+
+
+
+
+
+
+/* form-pago :)  */
+.body-pago{
+font-family: 'Montserrat', sans-serif;
+  width: 400px;
+  height: 500px;
+
+ margin: 0px auto;
+  margin-bottom: 50px;
+ border-radius: 5px;
+ background-color: white;
+  border: 1px solid #dce1e1;
+
+}
+
+.payment-form label{
+  font-size: 14px;
+}
+.payment-form {
+  margin: 2em 1em;
+  position: relative;
+  top: 150px;
+  border-radius: 2%;
+
+
+
+}
+.payment-form fieldset {
+  border: none;
+}
+
+.payment-form input {
+  width: 100%;
+  height: 30px;
+  vertical-align: top;
+  border: 1px solid #bcc2c2;
+  border-radius: 3px;
+  font-size: 1.25em;
+  margin: 10px 5px;
+  font-weight: 100;
+  text-indent: 18px;
+  line-height: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.payment-form input[type="text"]:hover{
+    border: 2px solid #77c1f6;
+}
+
+
+
+
+.payment-form input[type="checkbox"] {
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  width: 1.75em;
+}
+
+.expiration input{
+position: relative;
+left: -138px;
+top: 14px;
+width: 50%;
+height: 30px;
+
+}
+.security label{
+  position: relative;
+  left: 230px;
+  top: -60px;
+  width: 30%;
+  height: 30px;
+}
+
+.security input{
+  position: relative;
+  left: 80px;
+  top: -46px;
+  width: 40%;
+  height: 30px;
+}
+
+.check input{
+  position: relative;
+  top:-60px;
+}
+
+.check label{
+  position: relative;
+  top:-1px;
+}
+.check span{
+  position: relative;
+  top:-52px;
+}
+
+
+.payment-form button {
+  position: relative;
+  left: 3%;
+  height:30px;
+  top: -80px;
+  margin-bottom: 10px;
+  width: 370px;
+  margin-top:5px;
+  color: #323232;
+  background-color: transparent;
+  border: 1px solid #AAA;
+  font-weight: 700;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.payment-form button:hover {
+  background: #1890ff;
+  color: white;
+  font-weight: 700;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+
+
+
+
+
+.payment-form label > span {
+  line-height: 1.5em;
+}
+
+
+.card-image {
+  position: relative;
+
+
+}
+
+.card-image img{
+  width: 230px;
+  height: 130px;
+    position: absolute;
+    left: 20%;
+    transition: opacity 1.5s ease-in-out;
+}
+
+ .card-image img.top:hover {
+  opacity: 0;
+}
+
+#pago-home{
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+  /* home pago   */
+
+  .home-pago{
+      width:100%;
+      height:150px;
+      font-size: 26px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      background-position: center;
+      background-size: center;
+      background-image: url('https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+  }
+
+
+
+  .home-pago h2{
+      color:white;
+      position: relative;
+      top: -70%;
+      padding-top: 183px;
+  }
+
+.hr-carrito{
+color: #e7eaea;
+opacity: 0.9;
+}
+
+  @media screen and (max-width: 420px) {
+
+
+    .body-pago{
+
+      width: 400px;
+      height: 483px;
+        font-size: 10px;
+
+
+    }
+
+
+    .payment-form {
+      width: 50%;
+      height: 50%;
+
+    }
+
+    .payment-form label{
+      font-size: 10px;
+    }
+
+    .expiration input{
+    position: relative;
+    left: 2px;
+    top: 5px;
+    width: 50%;
+    height: 30px;
+
+    }
+    .security label{
+      position: relative;
+      left: 103px;
+      top: -75px;
+      width: 30%;
+      height: 30px;
+    }
+
+    .security input{
+      position: relative;
+      left: 10px;
+      top: -55px;
+      width: 40%;
+      height: 30px;
+    }
+    .card-image img{
+      top: 20px;
+      width: 100px;
+      height: 100px;
+        position: absolute;
+        left: 18%;
+        transition: opacity 1.5s ease-in-out;
+    }
+    .body-pago{
+
+      top: -50px;
+
+    }
+
+    .check label{
+      position: relative;
+      justify-content: center;
+      top:-20px;
+    }
+    .carrito-contenedor {
+    height: 50%;
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+     margin-top:20%;
+     left: 15%;
+     vertical-align: middle;
+
+
+    }
+
+
+}

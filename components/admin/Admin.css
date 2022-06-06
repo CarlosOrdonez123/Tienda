@@ -1,0 +1,17 @@
+.admin{
+
+    padding-top: 50px;
+    width:80%;
+    margin:0 auto;
+}
+.panel_admin{
+    margin-top: 50px;
+}
+.admin h2{
+    text-align: center;
+}
+.tab_name{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0;
+}
